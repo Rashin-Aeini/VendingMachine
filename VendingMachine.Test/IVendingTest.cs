@@ -26,7 +26,7 @@ namespace VendingMachine.Test
             {
                 vending.InsertMoney(20);
             }
-            //Assert.Equal(1, vending.EndTransaction().Count);
+          
             Assert.Equal(
                 new Dictionary<int, int> { { 100, 2 } }, 
                 vending.EndTransaction()
@@ -54,7 +54,7 @@ namespace VendingMachine.Test
         public void PurchaseTest()
         {
             IVending vending = new Machine();
-            Assert.Null(vending.Purchase(5));
+            Assert.Null(vending.Purchase(17));
         }
 
 

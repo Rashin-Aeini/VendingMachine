@@ -11,8 +11,6 @@ namespace VendingMachine.Test
         {
             Product soda = new Drink(1, "Soda", "Drink cool", 10);
 
-            //soda.Adult = false
-
             Assert.Equal(1, soda.Id);
 
         }

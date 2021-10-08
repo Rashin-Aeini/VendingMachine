@@ -14,9 +14,9 @@ namespace VendingMachine.Test
         [Fact]
         public void TestId()
         {
-            Drink piza = new Drink(1, "Pizza", "HOT", 10);
+            Drink Fanta = new Drink(1, "Fanta", "HOT", 10);
 
-            Assert.NotEqual(4, piza.Id);
+            Assert.NotEqual(4, Fanta.Id);
         }
 
         [Fact]
